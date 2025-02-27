@@ -1,0 +1,84 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+  
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.seat-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+  
+.seat-row {
+    display: flex;
+    gap: 5px;
+}
+  
+.seat {
+    width: 50px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(118, 110, 110);
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.silver {
+    background-color: silver;
+    padding-left: 14px;
+    margin:2px;
+}
+  
+.gold {
+    background-color: gold;
+    padding-left: 14px;
+
+}
+  
+.platinum {
+    background-color: rgb(229, 228, 226);
+    padding-left: 14px;
+    margin:2px;
+}
+  
+.selected {
+    border: 2px solid blue;
+}
+  
+.summary {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.total {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+  
+.book-btn {
+    background-color: rgb(8, 8, 248);
+    color: rgb(217, 204, 204);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+.book-btn:disabled {
+    background-color: rgb(89, 81, 81);
+    cursor: not-allowed;
+}
+
